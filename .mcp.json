@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "cipher": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/workspaces/workspace",
+        "run",
+        "dotenv",
+        "run",
+        "npx",
+        "cipher",
+        "--mode",
+        "mcp"
+      ],
+      "env": {
+        "MCP_SERVER_MODE": "aggregator"
+      }
+    }
+  }
+}
